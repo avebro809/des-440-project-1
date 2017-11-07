@@ -74,15 +74,97 @@ html {
 body {
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: "Amatic SC", Verdana, sans-serif;
   margin: 0;
   padding: 0;
+}
+h1{
+  font-size: 52px;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  width: 500px;
+  margin: auto;
+  color: #D7EDE2;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+  color: #4E7BBE;
+  margin: -1px;
+  padding-bottom:30px;
+}
+
+p{
+  font-family: "Avenir", sans-serif;
+  font-size: 15px;
+  max-width: 700px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading {
+  background-image: url();
+
+}
+
+.top {
+  margin-bottom: -1px;
+  margin-top: -1px;
+}
+
+.intro {
+  padding-top:100px;
+  padding-bottom: 100px;
+  background-color: #F2F3F4;
+}
+
+.taylorpark {
+  padding-bottom: 100px;
+  background-color: #D6E5F1;
+}
+.tent {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+.wildlife {
+  padding-bottom: 100px;
+  background-color: #E7ECF1;
+}
+.tincup {
+  padding-bottom: 100px;
+  padding-top:100px;
+  padding-bottom: 100px;
+  background-color: #F2F3F4;
+}
+
+.mirror {
+  padding-bottom: 100px;
+  background-color: #D6E5F1;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
+}*/
+@media only screen and (max-width: 480px) {
+  h2{
+    font-size: 22px;
+
+  }
 }
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
