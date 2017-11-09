@@ -34,7 +34,7 @@
 </div>
 
 <div class="intro">
-      <h2>Welcome to the Rockies</h2>
+      <h2 data-scrollin data-scroll-offset="100">Welcome to the Rockies</h2>
     <p>
     The sun is big, the mountains are vast, and humidity is at an all time low.
     The natural world of the Colorado mountains will bring you the ultimate domain for exploration of the highest (literally and physically) means of Mother Nature.
@@ -45,7 +45,7 @@
 <img src="division1-02.svg" alt="division2">
 
 <div class="taylorpark">
-  <h2>Taylor Park</h2>
+  <h2 data-scrollin data-scroll-offset="100">Taylor Park</h2>
     <p>Home of the vast, breathtaking Taylor Reservoir, this park will be your foundation of the ultimate camping experience.
       With mountain ranges that peak to elevations of 14,000 feet and rivers that flow for miles. Taylor Park is a base for campsites you just can't beat.
     </p>
@@ -55,7 +55,7 @@
 <img src="division2.svg" alt="division2">
 
 <div class="wildlife">
-  <h2>Colorado Wildlife</h2>
+  <h2 data-scrollin data-scroll-offset="100">Colorado Wildlife</h2>
     <p>Civilization may be scarce but the wildlife is quite the opposite. Although you're secluded you're never really alone!
       The valleys will widely attract mule deer, elk, beavers, and coyotes. If you're lucky (subjectively) you'll come across the rare sighting
       of the moose and black bear. It is especially wise to keep your distance to not only protect the wildlife but to keep yourslef safe as well!
@@ -68,7 +68,7 @@
 </div>
 
 <div class="tincup">
-  <h2>Tin Cup Pass</h2>
+  <h2 data-scrollin data-scroll-offset="100">Tin Cup Pass</h2>
     <p>The Great Continental Divide parts rainfall of the Pacific Ocean from those that fall into the Atlantic.
       It not only serves a purpose but it has an extraordinary view. Throughout your voyage into the mountains, a trip through
       Tin Cup Pass is not one to miss.
@@ -79,7 +79,7 @@
 <img src="division1-02.svg" alt="division2">
 
 <div class="mirror">
-  <h2>Mirror Lake</h2>
+  <h2 data-scrollin data-scroll-offset="100">Mirror Lake</h2>
   <p>Through your travels along the Continental Divide you'll come across a small but beautiful lake hidden between
     the massive valleys of the Rocky Mountains. The lake was named Mirror Lake for obvious reasons. The smooth clear water
     reflects the mountain range identically giving off the illusion of a giant mirror.
@@ -93,7 +93,7 @@
 </div>
 
 <div class="elevation">
-  <h2>Going Up</h2>
+  <h2 data-scrollin data-scroll-offset="100">Going Up</h2>
     <p>Gunnison, Colorado is the home of the high and mightly Flag Mountain which peaks at an elevation of 12,323 ft. Climbing your way to the top may be scary, but it comes with a beautiful sight of fields of wildflowers overlooking <thead>
       mountainous. Be sure to catch the views, but don't get to close to the edge; it's a long ways down and the wind is strong!
     </thead>
@@ -104,7 +104,7 @@
 <img src="division1-02.svg" alt="division2">
 
 <div class="peak">
-  <h2>At the Top</h2>
+  <h2 data-scrollin data-scroll-offset="100">At the Top</h2>
   <p>The top of the mountain features an American flag planted above a 700 ft drop off, resulting in a breathtaking view of
     the Colorado Rocky Mountains. At 12,323 ft up, it can feel like you're on top of the world and with one step too far to the left
     you might just fall! Although your knees will be weary and your stomach might turn, the views from up here are nothing short of sensational!
@@ -119,7 +119,7 @@
 </div>
 
 <div class="elevation">
-  <h2>Little Mining Town</h2>
+  <h2 data-scrollin data-scroll-offset="100">Little Mining Town</h2>
     <p>Crested Butte may be small but is never easily overlooked. Authentic, open and free of crowds,
       Crested Butte is a quaint 1880s mining town, and a Registered National Historic District. Shopping and eating on
       Main Street with an amazing view of Mt. Crested Butte is the perfect way to cap off the ultimate Colorado mountain exploration!
@@ -131,11 +131,12 @@
 
 
         <!-- This pulls jQuery from Google's Content Delivery Network -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- This code checks for the existence of the jQuery object, if it doesn't exist, that means the line above failed,
         Google's CDN is down. So, let's write a tag that pulls in our local jQuery instead. -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <!-- Here's our own custom javascript file. We load jQuery first, so we can use the jQuery library in our code -->
         <script src="js/main.js"></script>
+        <script src="js/scroll-detection.js"></script>
     </body>
 </html>

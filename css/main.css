@@ -98,7 +98,12 @@ h2{
   color: #4E7BBE;
   margin: -1px;
   padding-bottom:30px;
+  opacity: 0;
+}
+h2.element-in {
   animation: bounceIn 2s;
+  animation-fill-mode: forwards;
+  opacity: 1;
 }
 .slide-fwd-center {
 	-webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
