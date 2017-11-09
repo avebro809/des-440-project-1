@@ -97,6 +97,7 @@ h2{
   color: #4E7BBE;
   margin: -1px;
   padding-bottom:30px;
+  animation: bounceIn 2s;
 }
 
 p{
@@ -135,8 +136,17 @@ p{
   padding-top: 60px;
 }
 .wildlife {
-  padding-bottom: 100px;
+  padding-bottom:200px;
   background-color: #E7ECF1;
+
+}
+
+.mountainrange {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
 }
 .tincup {
   padding-bottom: 100px;
@@ -145,19 +155,68 @@ p{
   background-color: #F2F3F4;
 }
 
+.trail {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+
 .mirror {
   padding-bottom: 100px;
   background-color: #D6E5F1;
 }
 
+.elevation {
+  padding-bottom: 100px;
+  padding-top:100px;
+  padding-bottom: 100px;
+  background-color: #F2F3F4;
+
+}
+
+.flower{
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+.peak {
+  padding-bottom: 100px;
+  background-color: #D6E5F1;
+}
+
+.flagmountain {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
 }*/
 @media only screen and (max-width: 480px) {
   h2{
-    font-size: 22px;
-
+    font-size: 26px;
   }
 }
 
